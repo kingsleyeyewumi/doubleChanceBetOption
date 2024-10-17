@@ -1,23 +1,23 @@
 // HOME---DRAW---AWAY---(1 X 2)
-let home1 = prompt("HOME TO WIN FULL TIME ODD");
-let homeAwayX = prompt("FULL TIME DRAW ODD");
-let away2 = prompt("AWAY TO WIN FULL TIME ODD");
+let home1 = prompt("HOME TO WIN FULL TIME: (ENTER HOME WIN Odd)");
+let homeAwayX = prompt("FULL TIME DRAW: (ENTER FULL TIME DRAW Odd)");
+let away2 = prompt("AWAY TO WIN FULL TIME: (ENTER AWAY WIN Odd)");
 
 // DOUBLE CHANCE
-let homeOrDraw1X = prompt("HOME WIN OR DRAW ODD");
-let awayOrDraw2X = prompt("AWAY WIN OR DRAW ODD");
+let homeOrDraw1X = prompt("HOME WIN OR DRAW: (ENTER HOME WIN or DRAW Odd)");
+let awayOrDraw2X = prompt("AWAY WIN OR DRAW: (ENTER AWAY WIN or DRAW Odd)");
 
 // BOTH TEAM COMBINED GOALS
-let bothTeamGoals = prompt("BOTH TEAM POSSIBLE COMBINED GOALS");
+let bothTeamGoals = prompt("BOTH TEAM POSSIBLE GOALS: (ENTER Over/Under)");
 
 // HOME TEAM TOTAL GOALS
-let homeTeamGoals = prompt("HOME TEAM POSSIBLE TOTAL GOALS");
+let homeTeamGoals = prompt("HOME TEAM POSSIBLE TOTAL GOALS: (ENTER Home Over/Under)");
 
 // AWAY TEAM TOTAL GOALS
-let awayTeamGoals = prompt("AWAY TEAM POSSIBLE TOTAL GOALS");
+let awayTeamGoals = prompt("AWAY TEAM POSSIBLE TOTAL GOALS: (ENTER Away Over/Under)");
 
 // H2H MEETINGS
-let h2hMeetings = prompt("NUMBER OF H2H MEETINGS");
+let h2hMeetings = prompt("NUMBER OF H2H MEETINGS: (ENTER H2H MEETINGS)");
 let homeTeamWins = prompt("HOME TEAM TOTAL WINS ON H2H");
 let homeTeamDraws = prompt("HOME TEAM TOTAL DRAWS ON H2H");
 let homeTeamLoss = prompt("HOME TEAM TOTAL LOSS ON H2H");
@@ -30,34 +30,34 @@ let homeLoss = prompt("HOME TEAM TOTAL LOSS AT HOME ON H2H");
 let awayWins = prompt("AWAY TEAM TOTAL WINS AWAY ON H2H");
 let awayDraws = prompt("AWAY TEAM TOTAL DRAWS AWAY ON H2H");
 let awayLoss = prompt("AWAY TEAM TOTAL LOSS AWAY ON H2H");
-let homeWinsAway = prompt("HOME TEAM TOTAL WINS FROM AWAY");
-let homeDrawsAway = prompt("HOME TEAM TOTAL DRAWS FROM AWAY");
-let homeLossAway = prompt("HOME TEAM TOTAL LOSS FROM AWAY");
-let awayWinsHome = prompt("AWAY TEAM TOTAL WINS AT HOME");
-let awayDrawsHome = prompt("AWAY TEAM TOTAL DRAWS AT HOME");
-let awayLossHome = prompt("AWAY TEAM TOTAL LOSS AT HOME");
+let homeWinsAway = prompt("HOME TEAM TOTAL WINS FROM AWAY ON H2H");
+let homeDrawsAway = prompt("HOME TEAM TOTAL DRAWS FROM AWAY ON H2H");
+let homeLossAway = prompt("HOME TEAM TOTAL LOSS FROM AWAY ON H2H");
+let awayWinsHome = prompt("AWAY TEAM TOTAL WINS AT HOME ON H2H");
+let awayDrawsHome = prompt("AWAY TEAM TOTAL DRAWS AT HOME ON H2H");
+let awayLossHome = prompt("AWAY TEAM TOTAL LOSS AT HOME ON H2H");
 
-// HOME TEAM H2H NEW
-let homeH2HNewWins = prompt("HOME TEAM TOTAL WIN ON H2H NEW");
-let homeH2HNewDraws = prompt("HOME TEAM TOTAL DRAWS ON H2H NEW");
-let homeH2HNewLoss = prompt("HOME TEAM TOTAL LOSS ON H2H NEW");
-let homeH2HNewWinsHome = prompt("HOME TEAM TOTAL WINS FROM HOME ON H2H NEW");
-let homeH2HNewDrawsHome = prompt("HOME TEAM TOTAL DRAWS FROM HOME ON H2H NEW");
-let homeH2HNewLossHome = prompt("HOME TEAM TOTAL LOSS FROM HOME ON H2H NEW");
-let homeH2HNewWinsAway = prompt("HOME TEAM TOTAL WINS FROM AWAY ON H2H NEW");
-let homeH2HNewDrawsAway = prompt("HOME TEAM TOTAL DRAWS FROM AWAY ON H2H NEW");
-let homeH2HNewLossAway = prompt("HOME TEAM TOTAL LOSS FROM AWAY ON H2H NEW");
+// HOME TEAM H2H/NEW
+let homeH2HNewWins = prompt("HOME TEAM TOTAL WIN ON H2H/NEW");
+let homeH2HNewDraws = prompt("HOME TEAM TOTAL DRAWS ON H2H/NEW");
+let homeH2HNewLoss = prompt("HOME TEAM TOTAL LOSS ON H2H/NEW");
+let homeH2HNewWinsHome = prompt("HOME TEAM TOTAL WINS AT HOME ON H2H/NEW");
+let homeH2HNewDrawsHome = prompt("HOME TEAM TOTAL DRAWS AT HOME ON H2H/NEW");
+let homeH2HNewLossHome = prompt("HOME TEAM TOTAL LOSS AT HOME ON H2H/NEW");
+let homeH2HNewWinsAway = prompt("HOME TEAM TOTAL WINS FROM AWAY ON H2H/NEW");
+let homeH2HNewDrawsAway = prompt("HOME TEAM TOTAL DRAWS FROM AWAY ON H2H/NEW");
+let homeH2HNewLossAway = prompt("HOME TEAM TOTAL LOSS FROM AWAY ON H2H/NEW");
 
 // AWAY TEAM H2H NEW
-let awayH2HNewWins = prompt("AWAY TEAM TOTAL WIN ON H2H NEW");
-let awayH2HNewDraws = prompt("AWAY TEAM TOTAL DRAWS ON H2H NEW");
-let awayH2HNewLoss = prompt("AWAY TEAM TOTAL LOSS ON H2H NEW");
-let awayH2HNewWinsHome = prompt("AWAY TEAM TOTAL WINS FROM HOME ON H2H NEW");
-let awayH2HNewDrawsHome = prompt("AWAY TEAM TOTAL DRAWS FROM HOME ON H2H NEW");
-let awayH2HNewLossHome = prompt("AWAY TEAM TOTAL LOSS FROM HOME ON H2H NEW");
-let awayH2HNewWinsAway = prompt("AWAY TEAM TOTAL WINS FROM AWAY ON H2H NEW");
-let awayH2HNewDrawsAway = prompt("AWAY TEAM TOTAL DRAWS FROM AWAY ON H2H NEW");
-let awayH2HNewLossAway = prompt("AWAY TEAM TOTAL LOSS FROM AWAY ON H2H NEW");
+let awayH2HNewWins = prompt("AWAY TEAM TOTAL WIN ON H2H/NEW");
+let awayH2HNewDraws = prompt("AWAY TEAM TOTAL DRAWS ON H2H/NEW");
+let awayH2HNewLoss = prompt("AWAY TEAM TOTAL LOSS ON H2H/NEW");
+let awayH2HNewWinsHome = prompt("AWAY TEAM TOTAL WINS AT HOME ON H2H/NEW");
+let awayH2HNewDrawsHome = prompt("AWAY TEAM TOTAL DRAWS AT HOME ON H2H/NEW");
+let awayH2HNewLossHome = prompt("AWAY TEAM TOTAL LOSS AT HOME ON H2H/NEW");
+let awayH2HNewWinsAway = prompt("AWAY TEAM TOTAL WINS FROM AWAY ON H2H/NEW");
+let awayH2HNewDrawsAway = prompt("AWAY TEAM TOTAL DRAWS FROM AWAY ON H2H/NEW");
+let awayH2HNewLossAway = prompt("AWAY TEAM TOTAL LOSS FROM AWAY ON H2H/NEW");
 
 // TEAMS POSITION ON LEAGUE TABLE
 let homeTeam = prompt("HOME TEAM POSITION ON LEAGUE TABLE");
